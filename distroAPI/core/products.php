@@ -153,6 +153,30 @@
             }
         }
         
+        
+        //deleting a product  (admin function)
+        public function delete(){
+            //create query
+            $query = 'DELETE FROM ' .$this-> table . ' WHERE id = :id';
+            
+            //prepare tatement
+            $stmt = $this->conn->prepare($query);
+            
+            //clean the data
+            $this->id = htmlspecialchars(strip_tags($this->id));
+            
+            //bind param
+            $stmt->bindParam(':id', $this->id);
+            
+            //execute query
+            if($stmt->execute()){
+                return true;
+            } else {
+                prinf("Errorr %s. \n", $stmt->error);
+                return false;
+            }
+        }
+        
     }
 
 ?>
