@@ -4,7 +4,7 @@
     $db_password='your_password';
     $db_name='distrocloset';
 
-    $db=new PDO('mysql:host=localhost;dbname='.$db_name.';
+    $db=new PDO('mysql:host=localhost:3307;dbname='.$db_name.';
                  charset=utf8', $db_user, $db_password);
 
     // set some attributes
