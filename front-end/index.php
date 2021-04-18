@@ -12,7 +12,7 @@
     <title>Distro | Home</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
