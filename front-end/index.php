@@ -28,6 +28,7 @@
            
             </ul>
             <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -223,9 +224,10 @@
         </div>
       </div>
 -->
+<div class="container-fluid">
 <div class="row">
-<ul class="nav nav-tabs " style="background-color:rgb(204, 248, 212);">
-  <li class="nav-item">
+<ul class="nav nav-tabs justified" style="background-color:rgb(204, 248, 212);">
+  <li class="nav-item ">
     <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Home</b></a>
   </li>
   <li class="nav-item dropdown">
@@ -298,18 +300,55 @@
       <li><a class="dropdown-item" href="#">Separated link</a></li>
     </ul>
   </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-bars" style="padding-right: 3px;"></i>Others</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </li>
+ 
 </ul>
 </div>
+</div>
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/7041588-ghost-girl-dog.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Shop with confidence</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati odit, ab, laboriosam sint odio recusandae, quae labore nihil tempora voluptatibus corrupti? Dignissimos doloremque amet architecto ipsum quo sunt corporis perspiciatis?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloribus ipsam neque provident eum perspiciatis magni sint maiores quaerat eveniet aut repellendus laudantium, sed, assumenda sapiente, exercitationem nam suscipit dolorem.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, ullam eaque natus iusto, illum, beatae corporis nam aliquid quos suscipit sed minima ad veniam atque! Magni cumque omnis earum asperiores.
+          <br><button type="button" class="btn btn-warning"><b>Start shopping</b></button>
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/7041646-crystal-ball.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/6802063-macbook-pro.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
