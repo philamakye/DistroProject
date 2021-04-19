@@ -233,71 +233,83 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">Shirts</a></li>
+      <li><a class="dropdown-item" href="#">Trousers</a></li>
+      <li><a class="dropdown-item" href="#">Dresses</a></li>
+      <li><a class="dropdown-item" href="#">Underwears</a></li>
+      <li><a class="dropdown-item" href="#">Shoes</a></li>
+      <li><a class="dropdown-item" href="#">Belts</a></li>
     </ul>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">MakeUps</a></li>
+      <li><a class="dropdown-item" href="#">Hair care</a></li>
+      <li><a class="dropdown-item" href="#">Personal care</a></li>
+      <li><a class="dropdown-item" href="#">Health care</a></li>
+      <li><a class="dropdown-item" href="#">Oral care</a></li>
+      <li><a class="dropdown-item" href="#">Fragrances</a></li>
+      
     </ul>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">Iphones</a></li>
+      <li><a class="dropdown-item" href="#">Samsung Galaxy</a></li>
+      <li><a class="dropdown-item" href="#">Samsung Tablets</a></li>
+      <li><a class="dropdown-item" href="#">Ipads</a></li>
+      <li><a class="dropdown-item" href="#">Techno</a></li>
+      <li><a class="dropdown-item" href="#">Sony</a></li>
+      <li><a class="dropdown-item" href="#">Huawei</a></li>
+      <li><a class="dropdown-item" href="#">Infinix</a></li>
     </ul>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">Playstation</a></li>
+      <li><a class="dropdown-item" href="#">XBox</a></li>
+      <li><a class="dropdown-item" href="#">Nintendo</a></li>
+      <li><a class="dropdown-item" href="#">Top games</a></li>
+      
     </ul>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">Kitchen</a></li>
+      <li><a class="dropdown-item" href="#">Office furniture</a></li>
+      <li><a class="dropdown-item" href="#">Interior decor</a></li>
+      <li><a class="dropdown-item" href="#">Bath</a></li>
+      <li><a class="dropdown-item" href="#">Office products</a></li>
+      <li><a class="dropdown-item" href="#">Home appliances</a></li>  
     </ul>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">Mercedes Benz</a></li>
+      <li><a class="dropdown-item" href="#">Audi</a></li>
+      <li><a class="dropdown-item" href="#">Toyota</a></li>
+      <li><a class="dropdown-item" href="#">Ford</a></li>
+      <li><a class="dropdown-item" href="#">Jeep</a></li>
+      <li><a class="dropdown-item" href="#">GMC</a></li>
+      <li><a class="dropdown-item" href="#">Honda</a></li>
+      <li><a class="dropdown-item" href="#">BMW</a></li>
+      
     </ul>
   </li>
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
+      <li><a class="dropdown-item" href="#">TVs</a></li>
+      <li><a class="dropdown-item" href="#">Stereo</a></li>
+      <li><a class="dropdown-item" href="#">Air condiioners</a></li>
+      <li><a class="dropdown-item" href="#">Kenwood appliances</a></li>
+      <li><a class="dropdown-item" href="#">Phillips appliances</a></li>
+      <li><a class="dropdown-item" href="#">Other appliances</a></li>
     </ul>
   </li>
  
@@ -318,22 +330,29 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati odit, ab, laboriosam sint odio recusandae, quae labore nihil tempora voluptatibus corrupti? Dignissimos doloremque amet architecto ipsum quo sunt corporis perspiciatis?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloribus ipsam neque provident eum perspiciatis magni sint maiores quaerat eveniet aut repellendus laudantium, sed, assumenda sapiente, exercitationem nam suscipit dolorem.
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, ullam eaque natus iusto, illum, beatae corporis nam aliquid quos suscipit sed minima ad veniam atque! Magni cumque omnis earum asperiores.
-          <br><button type="button" class="btn btn-warning"><b>Start shopping</b></button>
+          <br><br><button type="button" class="btn btn-warning"><b>Start shopping</b></button>
         </p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="images/7041646-crystal-ball.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h3>Introducing Distro Closet Wishlist</h3>
+        <p>Want to add store items for the future? Share item list to friends and family?
+          The new Distro closet wishlist allows you to add as many products to a list and generates a unique for you to share with friends and family to redeem and purchase these products.
+          <br><br><button type="button" class="btn btn-warning"><b>Create wishlist</b></button>
+        </p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="images/6802063-macbook-pro.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h3>Black Friday sales coming up soon</h3>
+        <h4>Get as low as 20% off products</h4> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore totam saepe inventore sit cum, doloremque dolorum deleniti repellendus nam illum temporibus eos, quaerat quo aliquid facere quod iste, aspernatur tenetur!
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio iste repellat suscipit unde delectus animi placeat non architecto qui fugiat? Nobis omnis aut aliquid fugit eveniet officiis ipsum modi in?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repellendus dolorem tempore nihil, aperiam illum fuga quam iusto iste pariatur cumque maxime, dolores inventore temporibus recusandae optio tenetur aspernatur hic!
+        </p>
       </div>
     </div>
   </div>
@@ -346,7 +365,150 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<div class="container">
+<div class="col-8">
 
+            <div class="row mt-5">
+            <center>
+            <h3>
+  Explore Popular and Trending
+  <small class="text-muted">Products</small>
+</h3>
+            </center>
+                <div class="col">
+                <div class="card">
+                    <img src="images/image1.jpg" class="card-img-top" style="height: 200px" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                          <center><head>
+                              Alexander Mcqueen
+                          </head></center>
+                        <center><b>$1500</b></center>
+                        <br>
+                         <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/image2.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Custom Balmain Mcqueen
+                    </head></center>
+                  <center><b>$1000</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                   </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/image3.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Classic SofoPapa 
+                    </head></center>
+                  <center><b>$5000</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                   </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                <div class="card">
+                    <img src="images/image4.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Mad Camboo
+                    </head></center>
+                  <center><b>$50000</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                  </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/image5.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Women Outing
+                    </head></center>
+                  <center><b>$1000</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                   </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/image6.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Devil's Prada
+                    </head></center>
+                  <center><b>$500</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                  </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                <div class="card">
+                    <img src="images/image7.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Women's bag
+                    </head></center>
+                  <center><b>$100000</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/image8.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Leather bag
+                    </head></center>
+                  <center><b>$15000</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="images/image9.jpg" style="height: 200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><center><head>
+                        Belt
+                    </head></center>
+                  <center><b>$200</b></center>
+                  <br>
+                   <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                </p>
+                    </div>
+                  </div>
+                </div>
+            </div>   
+ </div>
+</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
