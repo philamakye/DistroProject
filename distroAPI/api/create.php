@@ -20,6 +20,7 @@
     $product->price = $data->price;
     $product->description = $data->description;
     $product->stock = $data->stock;
+    $product->product_img = $data->product_img;
     $product->category_id = $data->category_id;
 
     //create post
