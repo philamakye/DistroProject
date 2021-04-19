@@ -330,7 +330,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati odit, ab, laboriosam sint odio recusandae, quae labore nihil tempora voluptatibus corrupti? Dignissimos doloremque amet architecto ipsum quo sunt corporis perspiciatis?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloribus ipsam neque provident eum perspiciatis magni sint maiores quaerat eveniet aut repellendus laudantium, sed, assumenda sapiente, exercitationem nam suscipit dolorem.
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, ullam eaque natus iusto, illum, beatae corporis nam aliquid quos suscipit sed minima ad veniam atque! Magni cumque omnis earum asperiores.
-          <br><br><button type="button" class="btn btn-warning"><b>Start shopping</b></button>
+          <br><br><button type="button" class="btn btn-warning"><b>Start Shopping</b></button>
         </p>
       </div>
     </div>
@@ -340,7 +340,7 @@
         <h3>Introducing Distro Closet Wishlist</h3>
         <p>Want to add store items for the future? Share item list to friends and family?
           The new Distro closet wishlist allows you to add as many products to a list and generates a unique for you to share with friends and family to redeem and purchase these products.
-          <br><br><button type="button" class="btn btn-warning"><b>Create wishlist</b></button>
+          <br><br><button type="button" class="btn btn-warning"><b>Create Wishlist</b></button>
         </p>
       </div>
     </div>
@@ -374,16 +374,24 @@
   Explore Popular and Trending
   <small class="text-muted">Products</small>
 </h3>
+<figure>
+  <blockquote class="blockquote">
+    <p>“Whoever said that money can’t buy happiness simply didn’t know where to go shopping.”</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <cite title="Source Title">Bo Derek</cite>
+  </figcaption>
+</figure>
             </center>
                 <div class="col">
                 <div class="card">
-                    <img src="images/image1.jpg" class="card-img-top" style="height: 200px" alt="...">
+                    <img src="images/7041605-honda-civic-car-tuning-parking.jpg" class="card-img-top" style="height: 200px" alt="...">
                     <div class="card-body">
                       <p class="card-text">
                           <center><head>
-                              Alexander Mcqueen
+                              Honda Civic
                           </head></center>
-                        <center><b>$1500</b></center>
+                        <center><b>$10500</b></center>
                         <br>
                          <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
                       </p>
