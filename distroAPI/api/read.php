@@ -29,6 +29,7 @@
                 'price' => $price,
                 'description' => $description,
                 'stock' => $stock,
+                'product_img' => $product_img,
                 'category_id' => $category_id,
                 'category_name' => $category_name
             );
