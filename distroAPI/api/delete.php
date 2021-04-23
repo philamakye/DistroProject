@@ -24,7 +24,7 @@
             array('message' => 'Product deleted.')
         );
     } else {
-        echo json_enconde(
+        echo json_encode(
             array('message' => 'Product not deleted.')
         );
     }
