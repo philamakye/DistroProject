@@ -21,6 +21,7 @@
     $product->price = $data->price;
     $product->description = $data->description;
     $product->stock = $data->stock;
+    $product->product_img = $data->product_img;
     $product->category_id = $data->category_id;
 
     //create post
@@ -29,7 +30,7 @@
             array('message' => 'Post updated.')
         );
     } else {
-        echo json_enconde(
+        echo json_encode(
             array('message' => 'Post not updated.')
         );
     }
