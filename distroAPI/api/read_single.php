@@ -21,6 +21,7 @@
         'price' => $product->price,
         'description' => $product->description,
         'stock' => $product->stock,
+        'product_img' => $product->product_img,
         'category_id' => $product->category_id,
         'category_name' => $product->category_name
     );
