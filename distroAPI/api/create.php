@@ -29,7 +29,7 @@
             array('message' => 'Product created.')
         );
     } else {
-        echo json_enconde(
+        echo json_encode(
             array('message' => 'Product not created.')
         );
     }

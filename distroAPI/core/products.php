@@ -12,7 +12,7 @@
         public $category_name;
         public $name;
         public $price;
-        public $decription;
+        public $description;
         public $stock;
         public $product_img;
         public $created_at;
@@ -180,7 +180,7 @@
             if($stmt->execute()){
                 return true;
             } else {
-                prinf("Errorr %s. \n", $stmt->error);
+                printf("Errorr %s. \n", $stmt->error);
                 return false;
             }
         }

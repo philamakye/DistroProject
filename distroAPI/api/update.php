@@ -30,7 +30,7 @@
             array('message' => 'Post updated.')
         );
     } else {
-        echo json_enconde(
+        echo json_encode(
             array('message' => 'Post not updated.')
         );
     }
