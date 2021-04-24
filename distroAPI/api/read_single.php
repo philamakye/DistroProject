@@ -8,7 +8,7 @@
     //initializing our API
     include_once('../core/initialize.php');
 
-    //instantiate the Post class
+    //instantiate the Product class
 
     $product = new Product($db);
 
