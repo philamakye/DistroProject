@@ -14,5 +14,6 @@
 
     //core classes
     require_once(CORE_PATH.DS.'products.php');
+    require_once(CORE_PATH.DS.'wishlists.php');
 
 ?>
