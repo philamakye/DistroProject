@@ -111,7 +111,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="product_page_7.php">TVs</a></li>
                         <li><a class="dropdown-item" href="product_page_7.php">Stereo</a></li>
-                        <li><a class="dropdown-item" href="product_page_7.php">Air condiioners</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">Air conditioners</a></li>
                         <li><a class="dropdown-item" href="product_page_7.php">Kenwood appliances</a></li>
                         <li><a class="dropdown-item" href="product_page_7.php">Phillips appliances</a></li>
                         <li><a class="dropdown-item" href="product_page_7.php">Other appliances</a></li>

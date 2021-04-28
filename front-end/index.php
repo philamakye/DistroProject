@@ -52,7 +52,7 @@
             <li><a class="dropdown-item" href="product_page_1.php">Dresses</a></li>
             <li><a class="dropdown-item" href="product_page_1.php">Underwears</a></li>
             <li><a class="dropdown-item" href="product_page_1.php">Shoes</a></li>
-            <li><a class="dropdown-item" href="product_page.php_1">Belts</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Belts</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
