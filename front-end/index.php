@@ -197,172 +197,53 @@
             </figcaption>
           </figure>
         </center>
-        <div class="col">
-          <div class="card">
-            <img src="images/7041605-honda-civic-car-tuning-parking.jpg" class="card-img-top" style="height: 200px" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
 
-                  <head>
-                    Honda Civic
-                  </head>
-                </center>
-                <center><b>$10500</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/image2.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
+        <script>
+          var url = "http://localhost/DistroProject/distroAPI/api/read.php"
 
-                  <head>
-                    Custom Balmain Mcqueen
-                  </head>
-                </center>
-                <center><b>$1000</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/image3.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
+          fetch(url).then(function(response) {
+            return response.json();
+          }).then(function(body) {
+            apiResult = body
 
-                  <head>
-                    Classic SofoPapa
-                  </head>
-                </center>
-                <center><b>$5000</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col">
-          <div class="card">
-            <img src="images/image4.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
+            for (var key in apiResult) {
+              if (apiResult.hasOwnProperty(key)) {
+                let container = document.querySelector('#itemList');
+                apiResult[key].forEach((result, idx) => {
+                  //creating card element
+                  const card = document.createElement('div');
+                  card.classList = 'card-body';
 
-                  <head>
-                    Mad Camboo
-                  </head>
-                </center>
-                <center><b>$50000</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/image5.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
+                  //construct card content
+                  const content = ` 
+                <div class="col">
+                  <div class="card">
+                    <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <center>
 
-                  <head>
-                    Women Outing
-                  </head>
-                </center>
-                <center><b>$1000</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/image6.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
+                          <head>
+                            ${result.name}
+                          </head>
+                        </center>
+                        <center><b>$${result.price}</b></center>
+                        <br>
+                        <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+               `;
 
-                  <head>
-                    Devil's Prada
-                  </head>
-                </center>
-                <center><b>$500</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col">
-          <div class="card">
-            <img src="images/image7.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
-
-                  <head>
-                    Women's bag
-                  </head>
-                </center>
-                <center><b>$100000</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/image8.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
-
-                  <head>
-                    Leather bag
-                  </head>
-                </center>
-                <center><b>$15000</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="images/image9.jpg" style="height: 200px" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">
-                <center>
-
-                  <head>
-                    Belt
-                  </head>
-                </center>
-                <center><b>$200</b></center>
-                <br>
-                <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-              </p>
-            </div>
-          </div>
-        </div>
+               //append newly created card element
+               container.innerHTML += content;
+                });
+              }
+            }
+          });
+        </script>
+        <div class="row" id="itemList"> </div>
       </div>
     </div>
   </div>
