@@ -22,7 +22,7 @@
     //create wishlist
     if($wishlist->create()){
         echo json_encode(
-            array('message' => 'Wishlist created with id ' .$wishlist->id)
+            array('message' => 'Wishlist created with id ' .$wishlist->id) 
         );
     } else {
         echo json_encode(
