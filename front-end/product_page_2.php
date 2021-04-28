@@ -31,7 +31,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                 </ul>
-                <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
+                <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
                 <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -123,10 +123,7 @@
     <div class="container mx-0">
         <div class="row mx-0">
             <div class="col-sm-2 side-one">
-                One of three columns
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo commodi ab sapiente ducimus, fugit nulla quaerat officia recusandae quibusdam iusto ipsam expedita. Mollitia dicta minima enim dolor? Nisi, numquam debitis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatibus officia dolorum enim tempora nobis natus soluta animi, eligendi quos perspiciatis exercitationem tempore, inventore ipsa quaerat illum assumenda itaque? Voluptatem?
-
+      
             </div>
             <div class="col-sm side-2">
                 <center><h2><b>Makeups</b></h2></center>

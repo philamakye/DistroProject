@@ -29,7 +29,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
         </ul>
-        <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
+        <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
         <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
