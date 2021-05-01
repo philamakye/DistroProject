@@ -16,7 +16,34 @@
 </head>
 
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offset-2 distro-icon">
+        <center>
+          <img src="images/dribble_cart.gif" alt="Distro-icon">
+        </center>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+        </ul>
+        <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -121,11 +121,15 @@
       <hr>
       <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
     </div>
+    <div class="d-grid gap-2 mt-3">
+    <center><a class="lead" style="text-decoration: none; color:black"><b>OR</b></a></center>
+  <button class="btn btn-warning" type="button"><b>Add to wishlist</b></button>
+   </div>
   </div>
 </div>
     </div>
     <div class="col-sm-1">
-      
+    
     </div>
   </div>
 </div>
