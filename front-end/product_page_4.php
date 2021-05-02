@@ -15,30 +15,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offset-2 distro-icon">
-                <center>
-                    <img src="images/dribble_cart.gif" alt="Distro-icon">
-                </center>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offset-2 distro-icon">
+        <center>
+          <img src="images/dribble_cart.gif" alt="Distro-icon">
+        </center>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                </ul>
-                <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
-                <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </ul>
+        <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
+        <button  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding-right:15px; font-size:1.3em; color:black; background:transparent; border:0px"><i class="far fa-heart"></i></button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+  <form action="wishlistpage.php" method="post">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wishlist</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <center> Please enter your wishlist code below <br></center>
+       <center> <input type="text" name="wishlist" id="wishlist"></center>
+      </div>
+      <div class="modal-footer">
+              
+        <input type="submit" value="Redeem" class="btn btn-secondary">
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
     <div class="container-fluid">
         <div class="row">
             <ul class="nav nav-tabs justified" style="background-color:rgb(204, 248, 212);">
