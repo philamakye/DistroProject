@@ -65,30 +65,30 @@
           <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Home</b></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
+          <a class="nav-link dropdown-toggle"  href="product_page_1.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="product_page_1.php">Shirts</a></li>
-            <li><a class="dropdown-item" href="product_page_1.php">Trousers</a></li>
-            <li><a class="dropdown-item" href="product_page_1.php">Dresses</a></li>
-            <li><a class="dropdown-item" href="product_page_1.php">Underwears</a></li>
-            <li><a class="dropdown-item" href="product_page_1.php">Shoes</a></li>
-            <li><a class="dropdown-item" href="product_page_1.php">Belts</a></li>
+            <li><a class="dropdown-item" href="#">Shirts</a></li>
+            <li><a class="dropdown-item" href="#">Trousers</a></li>
+            <li><a class="dropdown-item" href="#">Dresses</a></li>
+            <li><a class="dropdown-item" href="#">Underwears</a></li>
+            <li><a class="dropdown-item" href="#">Shoes</a></li>
+            <li><a class="dropdown-item" href="#">Belts</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
+          <a class="nav-link dropdown-toggle"  href="product_page_2.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="product_page_2.php">MakeUps</a></li>
-            <li><a class="dropdown-item" href="product_page_2.php">Hair care</a></li>
-            <li><a class="dropdown-item" href="product_page_2.php">Personal care</a></li>
-            <li><a class="dropdown-item" href="product_page_2.php">Health care</a></li>
-            <li><a class="dropdown-item" href="product_page_2.php">Oral care</a></li>
-            <li><a class="dropdown-item" href="product_page_2.php">Fragrances</a></li>
+            <li><a class="dropdown-item" href="#">MakeUps</a></li>
+            <li><a class="dropdown-item" href="#">Hair care</a></li>
+            <li><a class="dropdown-item" href="#">Personal care</a></li>
+            <li><a class="dropdown-item" href="#">Health care</a></li>
+            <li><a class="dropdown-item" href="#">Oral care</a></li>
+            <li><a class="dropdown-item" href="#">Fragrances</a></li>
 
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
+          <a class="nav-link dropdown-toggle"  href="product_page_3.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Iphones</a></li>
             <li><a class="dropdown-item" href="#">Samsung Galaxy</a></li>
@@ -101,7 +101,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
+          <a class="nav-link dropdown-toggle"  href="product_page_4.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Playstation</a></li>
             <li><a class="dropdown-item" href="#">XBox</a></li>
@@ -111,7 +111,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
+          <a class="nav-link dropdown-toggle"  href="product_page_5.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Kitchen</a></li>
             <li><a class="dropdown-item" href="#">Office furniture</a></li>
@@ -122,7 +122,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
+          <a class="nav-link dropdown-toggle" " href="product_page_6.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Mercedes Benz</a></li>
             <li><a class="dropdown-item" href="#">Audi</a></li>
@@ -136,7 +136,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
+          <a class="nav-link dropdown-toggle"  href="product_page_7.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">TVs</a></li>
             <li><a class="dropdown-item" href="#">Stereo</a></li>
