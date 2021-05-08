@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,6 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
   <title>Distro | Home</title>
 </head>
 
@@ -27,30 +27,9 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
         </ul>
         <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
-        <button  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding-right:15px; font-size:1.3em; color:black; background:transparent; border:0px"><i class="far fa-heart"></i></button>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
-  <form action="wishlistpage.php" method="post">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Wishlist</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-       <center> Please enter your wishlist code below <br></center>
-       <center> <input type="text" name="wishlist" id="wishlist"></center>
-      </div>
-      <div class="modal-footer">
-              
-        <input type="submit" value="Redeem" class="btn btn-secondary">
-      </div>
-    </div>
-  </form>
-  </div>
-</div>
+        <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -65,30 +44,29 @@
           <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Home</b></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_1.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Shirts</a></li>
-            <li><a class="dropdown-item" href="#">Trousers</a></li>
-            <li><a class="dropdown-item" href="#">Dresses</a></li>
-            <li><a class="dropdown-item" href="#">Underwears</a></li>
-            <li><a class="dropdown-item" href="#">Shoes</a></li>
-            <li><a class="dropdown-item" href="#">Belts</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Shirts</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Trousers</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Dresses</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Underwears</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Shoes</a></li>
+            <li><a class="dropdown-item" href="product_page_1.php">Belts</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_2.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">MakeUps</a></li>
-            <li><a class="dropdown-item" href="#">Hair care</a></li>
-            <li><a class="dropdown-item" href="#">Personal care</a></li>
-            <li><a class="dropdown-item" href="#">Health care</a></li>
-            <li><a class="dropdown-item" href="#">Oral care</a></li>
-            <li><a class="dropdown-item" href="#">Fragrances</a></li>
-
+            <li><a class="dropdown-item" href="product_page_2.php">MakeUps</a></li>
+            <li><a class="dropdown-item" href="product_page_2.php">Hair care</a></li>
+            <li><a class="dropdown-item" href="product_page_2.php">Personal care</a></li>
+            <li><a class="dropdown-item" href="product_page_2.php">Health care</a></li>
+            <li><a class="dropdown-item" href="product_page_2.php">Oral care</a></li>
+            <li><a class="dropdown-item" href="product_page_2.php">Fragrances</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_3.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Iphones</a></li>
             <li><a class="dropdown-item" href="#">Samsung Galaxy</a></li>
@@ -101,17 +79,16 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_4.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Playstation</a></li>
             <li><a class="dropdown-item" href="#">XBox</a></li>
             <li><a class="dropdown-item" href="#">Nintendo</a></li>
             <li><a class="dropdown-item" href="#">Top games</a></li>
-
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_5.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Kitchen</a></li>
             <li><a class="dropdown-item" href="#">Office furniture</a></li>
@@ -122,7 +99,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" " href="product_page_6.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Mercedes Benz</a></li>
             <li><a class="dropdown-item" href="#">Audi</a></li>
@@ -132,11 +109,10 @@
             <li><a class="dropdown-item" href="#">GMC</a></li>
             <li><a class="dropdown-item" href="#">Honda</a></li>
             <li><a class="dropdown-item" href="#">BMW</a></li>
-
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_7.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">TVs</a></li>
             <li><a class="dropdown-item" href="#">Stereo</a></li>
@@ -146,7 +122,6 @@
             <li><a class="dropdown-item" href="#">Other appliances</a></li>
           </ul>
         </li>
-
       </ul>
     </div>
   </div>
@@ -200,8 +175,7 @@
     </button>
   </div>
   <div class="container">
-    <div class="col">
-
+    <div class="col-8">
       <div class="row mt-5">
         <center>
           <h3>
@@ -217,15 +191,12 @@
             </figcaption>
           </figure>
         </center>
-
         <script>
           var url = "http://localhost/DistroProject/distroAPI/api/read.php"
-
           fetch(url).then(function(response) {
             return response.json();
           }).then(function(body) {
             apiResult = body
-
             for (var key in apiResult) {
               if (apiResult.hasOwnProperty(key)) {
                 let container = document.querySelector('#itemList');
@@ -233,7 +204,6 @@
                   //creating card element
                   const card = document.createElement('div');
                   card.classList = 'card-body';
-
                   //construct card content
                   const content = ` 
                 <div class="col">
@@ -242,7 +212,6 @@
                     <div class="card-body">
                       <p class="card-text">
                         <center>
-
                           <head>
                             ${result.name}
                           </head>
@@ -255,9 +224,8 @@
                   </div>
                 </div>
                `;
-
-               //append newly created card element
-               container.innerHTML += content;
+                  //append newly created card element
+                  container.innerHTML += content;
                 });
               }
             }
@@ -267,8 +235,6 @@
       </div>
     </div>
   </div>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
