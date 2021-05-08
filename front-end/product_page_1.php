@@ -67,7 +67,7 @@
                     <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Fashion</b></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_2.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
+                    <a class="nav-link dropdown-toggle" href="product_page_2" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">MakeUps</a></li>
                         <li><a class="dropdown-item" href="#">Hair care</a></li>
@@ -79,62 +79,62 @@
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_3.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Iphones</a></li>
-                        <li><a class="dropdown-item" href="#">Samsung Galaxy</a></li>
-                        <li><a class="dropdown-item" href="#">Samsung Tablets</a></li>
-                        <li><a class="dropdown-item" href="#">Ipads</a></li>
-                        <li><a class="dropdown-item" href="#">Techno</a></li>
-                        <li><a class="dropdown-item" href="#">Sony</a></li>
-                        <li><a class="dropdown-item" href="#">Huawei</a></li>
-                        <li><a class="dropdown-item" href="#">Infinix</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Iphones</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Samsung Galaxy</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Samsung Tablets</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Ipads</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Techno</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Sony</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Huawei</a></li>
+                        <li><a class="dropdown-item" href="product_page_3.php">Infinix</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_4.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Playstation</a></li>
-                        <li><a class="dropdown-item" href="#">XBox</a></li>
-                        <li><a class="dropdown-item" href="#">Nintendo</a></li>
-                        <li><a class="dropdown-item" href="#">Top games</a></li>
+                        <li><a class="dropdown-item" href="product_page_4.php">Playstation</a></li>
+                        <li><a class="dropdown-item" href="product_page_4.php">XBox</a></li>
+                        <li><a class="dropdown-item" href="product_page_4.php">Nintendo</a></li>
+                        <li><a class="dropdown-item" href="product_page_4.php">Top games</a></li>
 
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_5.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Kitchen</a></li>
-                        <li><a class="dropdown-item" href="#">Office furniture</a></li>
-                        <li><a class="dropdown-item" href="#">Interior decor</a></li>
-                        <li><a class="dropdown-item" href="#">Bath</a></li>
-                        <li><a class="dropdown-item" href="#">Office products</a></li>
-                        <li><a class="dropdown-item" href="#">Home appliances</a></li>
+                        <li><a class="dropdown-item" href="product_page_5.php">Kitchen</a></li>
+                        <li><a class="dropdown-item" href="product_page_5.php">Office furniture</a></li>
+                        <li><a class="dropdown-item" href="product_page_5.php">Interior decor</a></li>
+                        <li><a class="dropdown-item" href="product_page_5.php">Bath</a></li>
+                        <li><a class="dropdown-item" href="product_page_5.php">Office products</a></li>
+                        <li><a class="dropdown-item" href="product_page_5.php">Home appliances</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_6.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Mercedes Benz</a></li>
-                        <li><a class="dropdown-item" href="#">Audi</a></li>
-                        <li><a class="dropdown-item" href="#">Toyota</a></li>
-                        <li><a class="dropdown-item" href="#">Ford</a></li>
-                        <li><a class="dropdown-item" href="#">Jeep</a></li>
-                        <li><a class="dropdown-item" href="#">GMC</a></li>
-                        <li><a class="dropdown-item" href="#">Honda</a></li>
-                        <li><a class="dropdown-item" href="#">BMW</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">Mercedes Benz</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">Audi</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">Toyota</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">Ford</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">Jeep</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">GMC</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">Honda</a></li>
+                        <li><a class="dropdown-item" href="product_page_6.php">BMW</a></li>
 
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_7.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">TVs</a></li>
-                        <li><a class="dropdown-item" href="#">Stereo</a></li>
-                        <li><a class="dropdown-item" href="#">Air conditioners</a></li>
-                        <li><a class="dropdown-item" href="#">Kenwood appliances</a></li>
-                        <li><a class="dropdown-item" href="#">Phillips appliances</a></li>
-                        <li><a class="dropdown-item" href="#">Other appliances</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">TVs</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">Stereo</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">Air conditioners</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">Kenwood appliances</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">Phillips appliances</a></li>
+                        <li><a class="dropdown-item" href="product_page_7.php">Other appliances</a></li>
                     </ul>
                 </li>
 
