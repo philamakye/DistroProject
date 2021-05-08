@@ -67,7 +67,7 @@
                     <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Fashion</b></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="product_page_2" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
+                    <a class="nav-link dropdown-toggle" href="product_page_2.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">MakeUps</a></li>
                         <li><a class="dropdown-item" href="#">Hair care</a></li>
