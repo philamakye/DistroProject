@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +10,6 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
   <title>Distro | Home</title>
 </head>
 
@@ -27,7 +27,6 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
         </ul>
         <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
         <a href="#" style="padding-right:15px; font-size:1.3em; color:black;"><i class="far fa-heart"></i></a>
@@ -64,7 +63,6 @@
             <li><a class="dropdown-item" href="product_page_2.php">Health care</a></li>
             <li><a class="dropdown-item" href="product_page_2.php">Oral care</a></li>
             <li><a class="dropdown-item" href="product_page_2.php">Fragrances</a></li>
-
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -87,7 +85,6 @@
             <li><a class="dropdown-item" href="#">XBox</a></li>
             <li><a class="dropdown-item" href="#">Nintendo</a></li>
             <li><a class="dropdown-item" href="#">Top games</a></li>
-
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -112,7 +109,6 @@
             <li><a class="dropdown-item" href="#">GMC</a></li>
             <li><a class="dropdown-item" href="#">Honda</a></li>
             <li><a class="dropdown-item" href="#">BMW</a></li>
-
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -126,7 +122,6 @@
             <li><a class="dropdown-item" href="#">Other appliances</a></li>
           </ul>
         </li>
-
       </ul>
     </div>
   </div>
@@ -181,7 +176,6 @@
   </div>
   <div class="container">
     <div class="col-8">
-
       <div class="row mt-5">
         <center>
           <h3>
@@ -197,15 +191,12 @@
             </figcaption>
           </figure>
         </center>
-
         <script>
           var url = "http://localhost/DistroProject/distroAPI/api/read.php"
-
           fetch(url).then(function(response) {
             return response.json();
           }).then(function(body) {
             apiResult = body
-
             for (var key in apiResult) {
               if (apiResult.hasOwnProperty(key)) {
                 let container = document.querySelector('#itemList');
@@ -213,7 +204,6 @@
                   //creating card element
                   const card = document.createElement('div');
                   card.classList = 'card-body';
-
                   //construct card content
                   const content = ` 
                 <div class="col">
@@ -222,7 +212,6 @@
                     <div class="card-body">
                       <p class="card-text">
                         <center>
-
                           <head>
                             ${result.name}
                           </head>
@@ -235,9 +224,8 @@
                   </div>
                 </div>
                `;
-
-               //append newly created card element
-               container.innerHTML += content;
+                  //append newly created card element
+                  container.innerHTML += content;
                 });
               }
             }
@@ -247,8 +235,6 @@
       </div>
     </div>
   </div>
-
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
