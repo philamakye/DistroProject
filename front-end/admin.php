@@ -63,8 +63,6 @@
                   <th scope="col">Category Name</th>
                   <th scope="col">Product name</th>
                   <th scope="col">Stock</th>
-                  <th scope="col">Update</th>
-                  <th scope="col">Delete</th>
                 </tr>
               </thead>
               <tbody id="productList">
@@ -86,8 +84,6 @@
                             <td>${result.category_name}</td>
                             <td>${result.name}</td>
                             <td>${result.stock}</td>
-                            <td><button type="button" class="btn btn-secondary">Update</button></td>
-                            <td><button type="button" class="btn btn-danger">Delete</button></td>
                           </tr>
                         `;
 
@@ -224,8 +220,6 @@
           submitForm(e, this);
         });
       }
-
-     
     </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
