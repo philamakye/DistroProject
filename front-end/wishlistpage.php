@@ -29,7 +29,8 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+<hr>
+<p>new me</p>
         </ul>
         <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
         <form class="d-flex">
@@ -40,6 +41,7 @@
     </div>
   </nav>
   
+
 
  
 
