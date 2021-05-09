@@ -130,7 +130,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form id="addProductForm" method="POST" action="" type="multipart/form-data">
+            <form id="addProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
               <label for="cname">Category ID: </label><br>
               <input type="text" id="cname" name="category_id"><br>
 
@@ -153,7 +153,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-secondary" style="background-color: rgb(61, 61, 182);">Save changes</button>
+            <button type="submit" class="btn btn-secondary" id='btnSubmit' style="background-color: rgb(61, 61, 182);">Save changes</button>
           </div>
           </form>
         </div>
@@ -166,11 +166,58 @@
       var myModal = document.getElementById('myModal')
       var myInput = document.getElementById('myInput')
 
-      myModal.addEventListener('shown.bs.modal', function() {
-        myInput.focus()
-      })
+      // myModal.addEventListener('show.bs.modal', function() {
+      //   myInput.focus()
+      // })
 
-      
+
+      //let's start this from scratch
+      function buildJsonFormData(form) {
+          const jsonFormData = { };
+          for(const pair of new FormData(form)) {
+              if(pair[1] instanceof File){
+                jsonFormData[pair[0]] = 'images/' + pair[1].name;
+              } else {
+                jsonFormData[pair[0]] = pair[1];
+              }
+          }
+          return jsonFormData;
+      }
+
+
+      async function submitForm(e, form){
+        //1. prevent reloading page
+        // e.preventDefault();
+        // 2. Submit the form
+        // 2.1 User Interaction
+        const btnSubmit = document.getElementById('btnSubmit');
+        btnSubmit.disabled = true;
+        setTimeout(() => btnSubmit.disabled = false, 2000);
+
+
+        // 2.2 Build JSON body
+        const jsonFormData = buildJsonFormData(form);
+        // 2.4 Request & Response
+        const response = await fetch(`http://localhost/DistroProject/distroAPI/api/create.php`, {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(jsonFormData)
+        });
+
+      }
+
+
+      const addProductForm = document.querySelector('#addProductForm');
+      if(addProductForm){
+        addProductForm.addEventListener('submit', function(e){
+          submitForm(e, this);
+        });
+      }
+
+     
     </script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
