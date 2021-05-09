@@ -131,9 +131,17 @@
           </div>
           <div class="modal-body">
             <form id="addProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
-              <label for="cname">Category ID: </label><br>
-              <input type="text" id="cname" name="category_id"><br>
-
+            <label for="cars">Choose a car:</label><br>
+              <select id="categories" name="category_id">
+                <option value="1">Health and Beauty</option>
+                <option value="2">Fashion</option>
+                <option value="3">Phones and Tablets</option>
+                <option value="4">Gaming</option>
+                <option value="5">Home and Office</option>
+                <option value="6">Automobile</option>
+                <option value="7">Electronics</option>
+              </select>
+              <br>
               <label for="pname">Product Name: </label><br>
               <input type="text" id="pname" name="name"><br>
 
