@@ -66,7 +66,7 @@
           <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Home</b></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle"  href="product_page_1.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
+          <a class="nav-link dropdown-toggle"   href="product_page_1.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Shirts</a></li>
             <li><a class="dropdown-item" href="#">Trousers</a></li>
