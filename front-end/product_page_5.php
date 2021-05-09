@@ -68,12 +68,12 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="product_page_1.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Shirts</a></li>
-                        <li><a class="dropdown-item" href="#">Trousers</a></li>
-                        <li><a class="dropdown-item" href="#">Dresses</a></li>
-                        <li><a class="dropdown-item" href="#">Underwears</a></li>
-                        <li><a class="dropdown-item" href="#">Shoes</a></li>
-                        <li><a class="dropdown-item" href="#">Belts</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Trousers</a></li>
+                        <li><a href="#">Dresses</a></li>
+                        <li><a href="#">Underwears</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Belts</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">

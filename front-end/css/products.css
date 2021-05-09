@@ -12,3 +12,24 @@
 .side-one{
     border-right: 1px;
 }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #0f0707;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-menu ul a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu ul a:hover {
+    background-color: #ddd;
+}
