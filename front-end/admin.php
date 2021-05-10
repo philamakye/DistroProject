@@ -147,7 +147,7 @@
           </div>
           <div class="modal-body">
             <form id="addProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
-            <label for="cars">Choose a car:</label><br>
+            <label for="cars">Choose a category:</label><br>
               <select id="categories" name="category_id">
                 <option value="1">Health and Beauty</option>
                 <option value="2">Fashion</option>
