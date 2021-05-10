@@ -244,9 +244,9 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form id="addProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
+            <form id="deleteProductForm" name="deleteProductForm" method="POST" enctype="multipart/form-data">
             <center><label for="">Enter ID of product to delete</label></center>
-            <input class="form-control" name="" id="" type="number" placeholder="" aria-label="default input example" required>
+            <input class="form-control" name="id" id="id" type="number" placeholder="" aria-label="default input example" required>
          
 
           </div>
@@ -309,11 +309,42 @@
 
       }
 
+      async function deleteForm(e, form){
+        //1. prevent reloading page
+        // e.preventDefault();
+        // 2. Submit the form
+        // 2.1 User Interaction
+        const btnSubmit = document.getElementById('btnSubmit');
+        btnSubmit.disabled = true;
+        setTimeout(() => btnSubmit.disabled = false, 2000);
+
+
+        // 2.2 Build JSON body
+        const jsonFormData = buildJsonFormData(form);
+        // 2.4 Request & Response
+        const response = await fetch(`http://localhost/DistroProject/distroAPI/api/delete.php`, {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(jsonFormData)
+        });
+
+      }
+
 
       const addProductForm = document.querySelector('#addProductForm');
       if(addProductForm){
         addProductForm.addEventListener('submit', function(e){
           submitForm(e, this);
+        });
+      }
+
+      const deleteProductForm = document.querySelector('#deleteProductForm');
+      if(deleteProductForm){
+        deleteProductForm.addEventListener('submit', function(e){
+          deleteForm(e, this);
         });
       }
     </script>
