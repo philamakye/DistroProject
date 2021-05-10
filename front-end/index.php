@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    
   <title>Distro | Home</title>
 </head>
 
@@ -228,23 +231,26 @@
                   card.classList = 'card-body';
                   //construct card content
                   const content = ` 
-                <div class="col">
-                  <div class="card">
-                    <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">
-                        <center>
-                          <head>
-                            ${result.name}
-                          </head>
-                        </center>
-                        <center><b>$${result.price}</b></center>
-                        <br>
-                        <center><button type="button" class="btn btn-outline-warning">Buy</button></center>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                  <div class="col">
+                            <div class="card">
+                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <center>
+                                            <head>
+                                                ${result.name}
+                                            </head>
+                                        </center>
+                                        <center><b>$${result.price}</b></center>
+                                        <br>
+                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
+                                       
+                                        <br>
+                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                `;
                   //append newly created card element
                   container.innerHTML += content;
@@ -257,7 +263,15 @@
       </div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>
