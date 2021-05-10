@@ -2,7 +2,11 @@
   <html>
 
   <head>
-    <title>Admin</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Distro | Admin</title>
+    <link rel="shortcut icon" href="images/6975.png_860.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/admin.css">
@@ -16,7 +20,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">DistroAdmin</a>
+        <a class="navbar-brand" href="index.php">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
             </li>
@@ -31,7 +35,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm">
+     <!--
+        <div class="col">
           <div class="d-flex" id="wrapper">
             <div class="bg-light border-right" id="sidebar-wrapper">
               <div class="sidebar-heading">Side Header </div>
@@ -46,17 +51,31 @@
             </div>
           </div>
         </div>
-        <div class="col-sm">
-          <div class="cards_set">
+           -->
+           <div class="col"></div>
+        <div class="col">
+        <div class="col-sm cards_set">
             <center>
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 ADD PRODUCT <br>
                 <i class="fas fa-plus"></i>
               </button>
             </center>
+            <center>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                UPDATE PRODUCT <br>
+                <i class="fas fa-pen"></i>
+              </button>
+            </center>
+            <center>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                DELETE PRODUCT <br>
+                <i class="far fa-trash-alt"></i>
+              </button>
+            </center>
           </div>
-          <div>
-            <table class="table" style="width:75%">
+                   
+            <table class="table mx-4" style="width:75%" >
               <thead>
                 <tr>
                   <th scope="col">ID</th>
@@ -98,9 +117,10 @@
               </tbody>
             </table>
 
-          </div>
+        
 
         </div>
+        <div class="col"></div>
 
       </div>
     </div>
@@ -139,6 +159,57 @@
               </select>
               <br>
               <label for="pname">Product Name: </label><br>
+              <input type="text" id="pname" name="name" required><br>
+
+              <label for="price">Product Price: </label><br>
+              <input type="text" id="price" name="price" required><br>
+
+              <label for="pdesc">Product Description: </label><br>
+              <input type="text" id="pdesc" name="description" required><br>
+
+              <label for="stock">Stock:</label><br>
+              <input type="number" id="stock" name="stock" required><br>
+
+              <label for="c_image">Choose Image:</label><br>
+              <input type="file" name="product_img" accept="image/*" id="c_image"><br>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-secondary" id='btnSubmit' style="background-color: rgb(61, 61, 182);">Save changes</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--Update Modal-->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">UPDATE PRODUCT</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="updateProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
+            <label for="pid">Enter ID of product to update </label><br>
+              <input type="number" id="pid" name="id"><br>
+              
+            <label for="cars">Choose a category:</label><br>
+              <select id="categories" name="category_id" required>
+                <option value="1">Health and Beauty</option>
+                <option value="2">Fashion</option>
+                <option value="3">Phones and Tablets</option>
+                <option value="4">Gaming</option>
+                <option value="5">Home and Office</option>
+                <option value="6">Automobile</option>
+                <option value="7">Electronics</option>
+              </select>
+              <br>
+
+              <label for="pname">Product Name: </label><br>
               <input type="text" id="pname" name="name"><br>
 
               <label for="price">Product Price: </label><br>
@@ -154,16 +225,41 @@
               <input type="file" name="product_img" accept="image/*" id="c_image"><br>
 
 
+           
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="submit" class="btn btn-secondary" id='btnSubmit' style="background-color: rgb(61, 61, 182);">Save changes</button>
+            <button type="submit" class="btn btn-secondary" id='btnSubmit' style="background-color: rgb(61, 61, 182);">Update</button>
           </div>
           </form>
         </div>
       </div>
     </div>
-    -->
+
+    <!-- Delete Modal-->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">DELETE PRODUCT</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="addProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
+            <center><label for="">Enter ID of product to delete</label></center>
+            <input class="form-control" name="" id="" type="number" placeholder="" aria-label="default input example" required>
+         
+
+          </div>
+          <div class="modal-footer">
+            
+            <button type="submit" class="btn btn-secondary" id='btnSubmit' style="background-color: rgb(61, 61, 182);">Delete</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
 
 
     <script>
