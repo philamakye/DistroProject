@@ -193,7 +193,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <form id="updateProductForm" name="addProductForm" method="POST" enctype="multipart/form-data">
+            <form id="updateProductForm" name="updateProductForm" method="POST" enctype="multipart/form-data">
             <label for="pid">Enter ID of product to update </label><br>
               <input type="number" id="pid" name="id"><br>
               
@@ -228,7 +228,7 @@
            
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-secondary" id='btnSubmit' style="background-color: rgb(61, 61, 182);">Update</button>
+            <button type="submit" class="btn btn-secondary" id='btnUpdate' style="background-color: rgb(61, 61, 182);">Update</button>
           </div>
           </form>
         </div>
@@ -333,6 +333,29 @@
 
       }
 
+      async function updateForm(e, form){
+        //1. prevent reloading page
+        // e.preventDefault();
+        // 2. Submit the form
+        // 2.1 User Interaction
+        const btnSubmit = document.getElementById('btnUpdate');
+        btnSubmit.disabled = true;
+        setTimeout(() => btnSubmit.disabled = false, 2000);
+
+
+        // 2.2 Build JSON body
+        const jsonFormData = buildJsonFormData(form);
+        // 2.4 Request & Response
+        const response = await fetch(`http://localhost/DistroProject/distroAPI/api/update.php`, {
+          method: 'POST',
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(jsonFormData)
+        });
+
+      }
 
       const addProductForm = document.querySelector('#addProductForm');
       if(addProductForm){
@@ -345,6 +368,13 @@
       if(deleteProductForm){
         deleteProductForm.addEventListener('submit', function(e){
           deleteForm(e, this);
+        });
+      }
+
+      const updateProductForm = document.querySelector('#updateProductForm');
+      if(updateProductForm){
+        updateProductForm.addEventListener('submit', function(e){
+          updateForm(e, this);
         });
       }
     </script>
