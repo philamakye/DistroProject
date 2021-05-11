@@ -260,74 +260,12 @@ $(document).ready(function(){
                   const card = document.createElement('div');
                   card.classList = 'card-body';
                   //construct card content
+                  if(result.category_id == 2 ){
                   const content = ` 
                    <div class="row" id="fashion">
-                   <center><h2><b>Fashion</b></h2></center>
-                   <hr>
+                         <center><h2><b>Fashion</b></h2></center>
+                            <hr>
                           <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
                             <div class="card">
                                 <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
                                 <div class="card-body">
@@ -350,549 +288,225 @@ $(document).ready(function(){
 
                     </div>
 
-                 
-                    <div class="row" id="h_and_b">
-                   <center><h2><b>Health and Beauty</b></h2></center>
-                   <hr>
-                          <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="row" id="p_and_t">
-                   <center><h2><b>Phones and Tablets</b></h2></center>
-                   <hr>
-                          <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row" id="gaming">
-                   <center><h2><b>Gaming</b></h2></center>
-                   <hr>
-                          <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row" id="h_and_o">
-                   <center><h2><b>Home and Office</b></h2></center>
-                   <hr>
-                          <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row" id="automobile">
-                   <center><h2><b>Automobile</b></h2></center>
-                   <hr>
-                          <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row" id="electronics">
-                   <center><h2><b>Electronics</b></h2></center>
-                   <hr>
-                          <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col">
-                            <div class="card">
-                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        <center>
-                                            <head>
-                                                ${result.name}
-                                            </head>
-                                        </center>
-                                        <center><b>$${result.price}</b></center>
-                                        <br>
-                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
-                                       
-                                        <br>
-                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                          
-                       
-         
-
-                        
                `;
                   //append newly created card element
-                  container.innerHTML += content;
+                  container.innerHTML += content; 
+                  }
+
+                  if(result.category_id == 1 ){
+                  const content = ` 
+                   <div class="row" id="h_and_b">
+                         <center><h2><b>Health and Beauty</b></h2></center>
+                            <hr>
+                          <div class="col">
+                            <div class="card">
+                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <center>
+                                            <head>
+                                                ${result.name}
+                                            </head>
+                                        </center>
+                                        <center><b>$${result.price}</b></center>
+                                        <br>
+                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
+                                       
+                                        <br>
+                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               `;
+                  //append newly created card element
+                  container.innerHTML += content; 
+                  }
+
+                  if(result.category_id == 3){
+                  const content = ` 
+                  <div class="row" id="p_and_t">
+                        <center>
+                            <h2><b>Phones and Tablets</b></h2>
+                        </center>
+                        <hr>
+                        <div class="col">
+                            <div class="card">
+                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <center>
+
+                                            <head>
+                                                ${result.name}
+                                            </head>
+                                        </center>
+                                        <center><b>$${result.price}</b></center>
+                                        <br>
+                                        <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                                                title="Product Description" data-bs-content="${result.description}">Description</button>
+                                        </center>
+
+                                        <br>
+                                        <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+               `;
+                  //append newly created card element
+                  container.innerHTML += content; 
+                  }
+
+                  if(result.category_id == 4){
+                  const content = ` 
+                  <div class="row" id="gaming">
+                    <center>
+                        <h2><b>Gaming</b></h2>
+                    </center>
+                    <hr>
+                    <div class="col">
+                        <div class="card">
+                            <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <center>
+
+                                        <head>
+                                            ${result.name}
+                                        </head>
+                                    </center>
+                                    <center><b>$${result.price}</b></center>
+                                    <br>
+                                    <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                                            title="Product Description"
+                                            data-bs-content="${result.description}">Description</button></center>
+
+                                    <br>
+                                    <center><button type="button" class="btn btn-outline-warning">Add to cart</button></center>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+               `;
+                  //append newly created card element
+                  container.innerHTML += content; 
+                  }
+
+
+                  if(result.category_id == 5){
+                  const content = ` 
+                  <div class="row" id="h_and_o">
+                    <center>
+                        <h2><b>Home and Office</b></h2>
+                    </center>
+                    <hr>
+                    <div class="col">
+                        <div class="card">
+                            <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <center>
+
+                                        <head>
+                                            ${result.name}
+                                        </head>
+                                    </center>
+                                    <center><b>$${result.price}</b></center>
+                                    <br>
+                                    <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                                            title="Product Description"
+                                            data-bs-content="${result.description}">Description</button></center>
+
+                                    <br>
+                                    <center><button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                    </center>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+               `;
+                  //append newly created card element
+                  container.innerHTML += content; 
+                  }
+
+                  if(result.category_id == 6){
+                  const content = ` 
+                  <div class="row" id="automobile">
+                    <center>
+                        <h2><b>Automobile</b></h2>
+                    </center>
+                    <hr>
+                    <div class="col">
+                        <div class="card">
+                            <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <center>
+
+                                        <head>
+                                            ${result.name}
+                                        </head>
+                                    </center>
+                                    <center><b>$${result.price}</b></center>
+                                    <br>
+                                    <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                                            title="Product Description"
+                                            data-bs-content="${result.description}">Description</button></center>
+
+                                    <br>
+                                    <center><button type="button" class="btn btn-outline-warning">Add to cart</button>
+                                    </center>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+               `;
+                  //append newly created card element
+                  container.innerHTML += content; 
+                  }
+
+                  if(result.category_id == 7){
+                  const content = ` 
+                  <div class="row" id="electronics">
+                        <center>
+                            <h2><b>Electronics</b></h2>
+                        </center>
+                        <hr>
+                        <div class="col">
+                            <div class="card">
+                                <img src="${result.product_img}" class="card-img-top" style="height: 200px" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <center>
+
+                                            <head>
+                                                ${result.name}
+                                            </head>
+                                        </center>
+                                        <center><b>$${result.price}</b></center>
+                                        <br>
+                                        <center><button type="button" class="btn btn-lg btn-danger"
+                                                data-bs-toggle="popover" title="Product Description"
+                                                data-bs-content="${result.description}">Description</button></center>
+
+                                        <br>
+                                        <center><button type="button" class="btn btn-outline-warning">Add to
+                                                cart</button></center>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+               `;
+                  //append newly created card element
+                  container.innerHTML += content; 
+                  }
+
                 });
               }
             }

@@ -184,6 +184,40 @@
                 return false;
             }
         }
+
+         //getting all products by categories
+        public function read_by_categories(){
+            //create query
+            $query = 'SELECT
+                c.name as category_name,
+                p.id,
+                p.category_id,
+                p.name,
+                p.price,
+                p.description,
+                p.stock,
+                p.product_img,
+                p.created_at
+                FROM '.$this->table . ' p LEFT JOIN categories c ON p.category_id=c.id WHERE p.category_id = :category_id ORDER BY p.created_at DESC';
+            
+            //prepare statement
+            $stmt = $this->conn->prepare($query);
+
+            //clean the data
+            $this->category_id = htmlspecialchars(strip_tags($this->category_id));
+        
+            //bind param
+            $stmt->bindParam(':category_id', $this->category_id);
+            
+           //execute query
+           $stmt->execute();
+        //    if($stmt->execute()){
+        //         return true;
+        //     } else {
+        //         printf("Errorr %s. \n", $stmt->error);
+        //         return false;
+        //     }
+        }
         
     }
 
