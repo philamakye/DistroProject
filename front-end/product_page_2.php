@@ -13,6 +13,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 
    <title>Distro | Products</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 </head>
 
 <body>
@@ -67,7 +94,7 @@
                     <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Health and Beauty</b></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"  href="product_page_1.php" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
+                    <a class="nav-link dropdown-toggle"  href="#fashion" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Shirts</a></li>
                         <li><a class="dropdown-item" href="#">Trousers</a></li>
@@ -236,9 +263,10 @@
                     </div>
                 </div>
                 <hr>
+               
+                <div class="container" id="fashion">
                 <center><h2><b>Hair care</b></h2></center>
                 <hr>
-                <div class="container">
                     <div class="row">
                         <div class="col">
                             <div class="card">
