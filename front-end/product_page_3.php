@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;">
+<nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;position:fixed">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
       </div>
     </div>
   </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" style="position: fixed;">
         <div class="row">
             <ul class="nav nav-tabs justified" style="background-color:rgb(204, 248, 212);">
                 <li class="nav-item ">
