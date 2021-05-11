@@ -7,24 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="images/6975.png_860.png" type="image/x-icon">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
-    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
-    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
   </script>
-
 
   <title>Distro | Home</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
       // Add smooth scrolling to all links
-      $("a").on('click', function (event) {
+      $("a").on('click', function(event) {
 
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
@@ -38,7 +33,7 @@
           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
           $('html, body').animate({
             scrollTop: $(hash).offset().top
-          }, 500, function () {
+          }, 500, function() {
 
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
@@ -53,8 +48,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg" style="background-color: turquoise;">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php">D<i font-size:1em; class="fas fa-star"></i>stro Closet</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="offset-2 distro-icon">
@@ -65,11 +59,8 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         </ul>
-        <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i
-            class="fas fa-shopping-cart"></i></a>
-        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
-          style="padding-right:15px; font-size:1.3em; color:black; background:transparent; border:0px"><i
-            class="far fa-heart"></i></button>
+        <a href="checkout.php" style="padding-right:15px; font-size:1.3em; color:black;"><i class="fas fa-shopping-cart"></i></a>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding-right:15px; font-size:1.3em; color:black; background:transparent; border:0px"><i class="far fa-heart"></i></button>
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-scrollable">
             <form action="wishlistpage.php" method="post">
@@ -108,8 +99,7 @@
           <a class="nav-link active" aria-current="page" style="background-color:white" href="#"><b>Home</b></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#fashion" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
+          <a class="nav-link dropdown-toggle" href="#fashion" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tshirt" style="padding-right: 3px;"></i>Fashion</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Shirts</a></li>
             <li><a class="dropdown-item" href="#">Trousers</a></li>
@@ -120,8 +110,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#h_and_b" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
+          <a class="nav-link dropdown-toggle" href="#h_and_b" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-stethoscope" style="padding-right: 3px;"></i>Health and Beauty</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">MakeUps</a></li>
             <li><a class="dropdown-item" href="#">Hair care</a></li>
@@ -132,8 +121,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#p_and_t" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
+          <a class="nav-link dropdown-toggle" href="#p_and_t" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-mobile-alt" style="padding-right: 3px;"></i>Phones and Tablets</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Iphones</a></li>
             <li><a class="dropdown-item" href="#">Samsung Galaxy</a></li>
@@ -146,8 +134,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#gaming" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
+          <a class="nav-link dropdown-toggle" href="#gaming" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fab fa-playstation" style="padding-right: 3px;"></i>Gaming</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Playstation</a></li>
             <li><a class="dropdown-item" href="#">XBox</a></li>
@@ -156,8 +143,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#h_and_o" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
+          <a class="nav-link dropdown-toggle" href="#h_and_o" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-home" style="padding-right: 3px;"></i>Home and office</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Kitchen</a></li>
             <li><a class="dropdown-item" href="#">Office furniture</a></li>
@@ -168,8 +154,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#automobile" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
+          <a class="nav-link dropdown-toggle" href="#automobile" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-car" style="padding-right: 3px;"></i>Automobile</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Mercedes Benz</a></li>
             <li><a class="dropdown-item" href="#">Audi</a></li>
@@ -182,8 +167,7 @@
           </ul>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#electronics" style="color:rgb(70, 74, 87);" role="button"
-            aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
+          <a class="nav-link dropdown-toggle" href="#electronics" style="color:rgb(70, 74, 87);" role="button" aria-expanded="false"><i class="fas fa-tv" style="padding-right: 3px;"></i>Electronics</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">TVs</a></li>
             <li><a class="dropdown-item" href="#">Stereo</a></li>
@@ -198,8 +182,7 @@
   </div>
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
@@ -277,9 +260,9 @@
         </center>
         <script>
           var url = "http://localhost/DistroProject/distroAPI/api/read.php"
-          fetch(url).then(function (response) {
+          fetch(url).then(function(response) {
             return response.json();
-          }).then(function (body) {
+          }).then(function(body) {
             apiResult = body
             for (var key in apiResult) {
               if (apiResult.hasOwnProperty(key)) {
@@ -310,7 +293,7 @@
                                                 ${result.name}
                                             </head>
                                         </center>
-                                        <center><b>$${result.price}</b></center>
+                                        <center><b><span>&#162;</span>${result.price}</b></center>
                                         <br>
                                         <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
                                        
@@ -338,7 +321,7 @@
                                                 ${result.name}
                                             </head>
                                         </center>
-                                        <center><b>$${result.price}</b></center>
+                                        <center><b><span>&#162;</span>${result.price}</b></center>
                                         <br>
                                         <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Product Description" data-bs-content="${result.description}">Description</button></center>
                                        
@@ -366,7 +349,7 @@
                                                 ${result.name}
                                             </head>
                                         </center>
-                                        <center><b>$${result.price}</b></center>
+                                        <center><b><span>&#162;</span>${result.price}</b></center>
                                         <br>
                                         <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
                                                 title="Product Description" data-bs-content="${result.description}">Description</button>
@@ -396,7 +379,7 @@
                                             ${result.name}
                                         </head>
                                     </center>
-                                    <center><b>$${result.price}</b></center>
+                                    <center><b><span>&#162;</span>${result.price}</b></center>
                                     <br>
                                     <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
                                             title="Product Description"
@@ -425,7 +408,7 @@
                                             ${result.name}
                                         </head>
                                     </center>
-                                    <center><b>$${result.price}</b></center>
+                                    <center><b><span>&#162;</span>${result.price}</b></center>
                                     <br>
                                     <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
                                             title="Product Description"
@@ -454,7 +437,7 @@
                                             ${result.name}
                                         </head>
                                     </center>
-                                    <center><b>$${result.price}</b></center>
+                                    <center><b><span>&#162;</span>${result.price}</b></center>
                                     <br>
                                     <center><button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
                                             title="Product Description"
@@ -484,7 +467,7 @@
                                                 ${result.name}
                                             </head>
                                         </center>
-                                        <center><b>$${result.price}</b></center>
+                                        <center><b><span>&#162;</span>${result.price}</b></center>
                                         <br>
                                         <center><button type="button" class="btn btn-lg btn-danger"
                                                 data-bs-toggle="popover" title="Product Description"
@@ -505,80 +488,80 @@
 
               }
             }
-                container.innerHTML += containerAutomobile;
-                container.innerHTML += containerElectronics;
-                container.innerHTML += containerFashion;
-                container.innerHTML += containerGaming;
-                container.innerHTML += containerHealth;
-                container.innerHTML += containerHome;
-                container.innerHTML += containerPhones;
+            container.innerHTML += containerAutomobile;
+            container.innerHTML += containerElectronics;
+            container.innerHTML += containerFashion;
+            container.innerHTML += containerGaming;
+            container.innerHTML += containerHealth;
+            container.innerHTML += containerHome;
+            container.innerHTML += containerPhones;
           });
         </script>
-        <div  id="itemList">
+        <div id="itemList">
 
           <div class="row" id="fashion">
-              <center>
-                <h2><b>Fashion</b></h2>
-              </center>
-              <hr>
-              <br>
+            <center>
+              <h2><b>Fashion</b></h2>
+            </center>
+            <hr>
+            <br>
           </div>
 
           <br>
           <div class="row" id="h_and_b">
-              <center>
-                <h2><b>Health and Beauty</b></h2>
-              </center>
-              <hr>
-              <br>
+            <center>
+              <h2><b>Health and Beauty</b></h2>
+            </center>
+            <hr>
+            <br>
           </div>
 
           <br>
-            <div class="row" id="p_and_t">
-              <center>
-                <h2><b>Phones and Tablets</b></h2>
-              </center>
-              <hr>
-              <br>
-            </div>
-
+          <div class="row" id="p_and_t">
+            <center>
+              <h2><b>Phones and Tablets</b></h2>
+            </center>
+            <hr>
             <br>
-            <div class="row" id="gaming">
-              <center>
-                  <h2><b>Gaming</b></h2>
-              </center>
-              <hr>
-              <br>
           </div>
 
           <br>
-            <div class="row" id="h_and_o">
-              <center>
-                  <h2><b>Home and Office</b></h2>
-              </center>
-              <hr>
-              <br>
-            </div>
-
+          <div class="row" id="gaming">
+            <center>
+              <h2><b>Gaming</b></h2>
+            </center>
+            <hr>
             <br>
-            <div class="row" id="automobile">
-              <center>
-                  <h2><b>Automobile</b></h2>
-              </center>
-              <hr>
-              <br>
-            </div>
+          </div>
 
+          <br>
+          <div class="row" id="h_and_o">
+            <center>
+              <h2><b>Home and Office</b></h2>
+            </center>
+            <hr>
             <br>
-            <div class="row" id="electronics">
-              <center>
-                  <h2><b>Electronics</b></h2>
-              </center>
-              <hr>
-              <br>
-            </div>
+          </div>
 
-         
+          <br>
+          <div class="row" id="automobile">
+            <center>
+              <h2><b>Automobile</b></h2>
+            </center>
+            <hr>
+            <br>
+          </div>
+
+          <br>
+          <div class="row" id="electronics">
+            <center>
+              <h2><b>Electronics</b></h2>
+            </center>
+            <hr>
+            <br>
+          </div>
+
+
 
         </div>
       </div>
@@ -587,13 +570,12 @@
 
   <script>
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
       return new bootstrap.Popover(popoverTriggerEl)
     })
   </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
 </body>
 
